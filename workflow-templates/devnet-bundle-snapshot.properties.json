@@ -1,0 +1,8 @@
+{
+  "name": "DevNet Bundle SNAPSHOT",
+  "description": "DevNet Bundle SNAPSHOT workflow template.",
+  "iconName": "icon",
+  "categories": [
+    "mapapps"
+  ]
+}

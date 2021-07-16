@@ -1,0 +1,8 @@
+{
+  "name": "DevNet Bundle Release",
+  "description": "DevNet Bundle Release workflow template.",
+  "iconName": "icon",
+  "categories": [
+    "mapapps"
+  ]
+}
