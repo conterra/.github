@@ -1,12 +1,14 @@
 name: devnet-bundle-release
 
-inputs:
-  releaseVersion:
-    description: "Release version"
-    required: true
-  nextDevVersion:
-    description: "Next SNAPSHOT version"
-    required: true
+on:
+  workflow_dispatch:
+    inputs:
+      releaseVersion:
+        description: "Release version"
+        required: true
+      nextDevVersion:
+        description: "Next SNAPSHOT version"
+        required: true
 
 env:
   RELEASE_VERSION: ${{ github.event.inputs.releaseVersion }}
